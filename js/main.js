@@ -7,12 +7,12 @@ const $minute = document.getElementById('minute')
 const $second = document.getElementById('second')
 
 setInterval(() => {
-    let day = new Date().getDay()
+    let day = new Date().toString()
     let hour = new Date().getHours()
     let minute = new Date().getMinutes()
     let second = new Date().getSeconds()
 
-    $day.innerText = day
+    $day.innerText = day[8] + day[9]
     $hour.innerText = hour
     $minute.innerText = minute
     $second.innerText = second
