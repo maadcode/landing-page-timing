@@ -124,6 +124,10 @@ section .contentBx a {
     border-radius: 40px;
 }
 
+section .contentBx a:hover {
+    filter: brightness(120%);
+}
+
 section .imgBx img {
     position: relative;
     max-width: 500px;
